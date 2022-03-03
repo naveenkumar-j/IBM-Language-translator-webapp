@@ -1,0 +1,174 @@
+<html>
+<head>
+    <title>About project</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='ML1.jpg') }}">
+</head>
+<body>
+<!--Start style css import-->
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+<!--End style css import-->
+</body>
+
+   <!--Start imports-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <script src="./static/mywebscript.js"></script>
+  <!--End imports-->
+
+<!--Start Navigation bar-->
+      <div class="navbar">
+        <a href="{{ url_for('view_about_page')}}"><i class="fa fa-align-justify"></i> About project</a>
+        <a class="active" href="{{ url_for('renderIndexPage')}}"><i  class="fa fa-code"> </i>Language Translator</a>
+        <a href="https://naveenkumarj.netlify.app/" target="_blank" ><i class="fa fa-address-card"></i>About Developer</a>
+      </div>
+<!--End Navigation bar-->
+
+<!--Start contents-->
+    <div class="work">
+            <div class="work-row work2">
+              <img src="{{ url_for('static', filename='image.png') }}" alt="">
+            </div>
+            <div class="work-row work1"><br>
+              <h1>Watson Language Translator:</h1>
+              <p>IBM Watson Language Translator provides users the ability to translate documents and text
+                  from one language to another while preserving formatting. Utilizing the latest Neural
+                  Machine Translation techniques, users see improved translation accuracy and faster speeds.
+                  Additionally, Watson Language Translator allows you to build industry or region-specific custom
+                  models for your enterprise needs. Available in API form, anyone may embed this functionality to
+                  translate applications, websites, documents, chats, and more! The service comes pre-trained for
+                  immediate use out of the box; however, you are to train the service to allow domain-specific customizations.
+                  What do I mean by this? You are able to train Watson Language Translator for specific domains or industries.
+                  <li>Translate your content</li>
+                  <li>Customize your translations</li>
+                  <li>Own your data</li>
+                  <li>Easy to use</li>
+                  <li>Higher accuracy and wide language translation support</li>
+                </p>
+              <div class="tech"><i class="devicon-php-plain"></i> <i class="devicon-mysql-plain"></i></div>
+            <div class="button button1">
+                  <a href="https://www.ibm.com/in-en/cloud/watson-language-translator#:~:text=What%20is%20Watson%20Language%20Translator,customers%20in%20their%20own%20language." target="_blank" style="color: aliceblue;">Learn More 🔍</a>
+                </div>
+                <div class="button button1">
+                  <a href="{{ url_for('renderIndexPage')}}" style="color: aliceblue;">Live Demo 🎮</a>
+                </div>
+            </div>
+          </div>
+<!--End contents-->
+
+
+<!-- Start Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4"><br>
+            <i class="fas fa-gem me-3"></i>Freelance Available
+          </h6>
+          <p>
+            I am a Software Engineering student and I have done many projects related to web designing, coding,
+              programming, and AI development.My project experience helped me to understand the latest trends and
+              technologies. Hire Me for your upcoming project! Send mail <a href="mailto:naveenkumar.j395@gmail.com">Here<a/>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"><br>
+            OTHER PROJECTS
+          </h6>
+          <p>
+            <a href="https://naveenkumarj.netlify.app/" target="_blank" class="text-reset">Portfolio Website</a>
+          </p>
+          <p>
+            <a href="https://naveenkumarj.hashnode.dev/" target="_blank" class="text-reset">Blog Website</a>
+          </p>
+          <p>
+            <a href="https://rationdelivery.odoo.com/" target="_blank" class="text-reset">Ration Delivery website</a>
+          </p>
+          <p>
+            <a href="https://comeandcodewithus.wordpress.com/" class="text-reset">Wordpress website</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"><br>
+            USEFUL LINKS
+          </h6>
+           <p>
+            <a href="{{ url_for('renderIndexPage')}}" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="{{ url_for('view_about_page')}}" class="text-reset">About project</a>
+          </p>
+          <p>
+            <a href="https://naveenkumarj.netlify.app/" class="text-reset">Developer details</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"><br>
+            Contact
+          </h6>
+          <p><i class="fa fa-map-marker"></i>VIT Univeristy, Vellore Campus</p>
+          <p>
+            <i class="fa fa-envelope-o"></i>
+            naveenkumar.j395@gmail.com
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Start Copyright -->
+  <div class="text-center p-4" style="background-color:#04AA6D">
+    <p style="color:white">© 2021 Copyright:<a href="https://naveenkumarj.netlify.app/"  target="_blank" style="color:white">Naveen</a></p>
+      <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Instagram -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="https://www.instagram.com/eagle_programming/" target="_blank"
+             role="button"
+             data-mdb-ripple-color="dark"><i class="fa fa-instagram fa-2x"></i></a>
+             <!-- Instagram -->
+
+          <!-- Linkedin -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="https://www.linkedin.com/in/naveenkumar-j-610147174/" target="_blank"
+             role="button"
+             data-mdb-ripple-color="dark"><i class="fa fa-linkedin fa-2x"></i></a>
+            <!-- Linkedin -->
+
+          <!-- Github -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="https://github.com/naveenkumar-j" target="_blank"
+             role="button"
+             data-mdb-ripple-color="dark"><i class="fa fa-github fa-2x"></i></a>
+             <!-- Github -->
+        </section>
+        <!-- Section: Social media -->
+  </div>
+  <!-- End Copyright -->
+</footer>
+<!-- End Footer -->
+</html>
