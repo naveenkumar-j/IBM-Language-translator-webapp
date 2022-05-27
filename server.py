@@ -3,7 +3,7 @@ import json
 import machinetranslation as mt
 
 
-app = Flask("Web Translator")
+app = Flask(__name__)
 
 @app.route("/englishToFrench")
 def englishToFrench():
