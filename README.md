@@ -49,3 +49,4 @@ https://user-images.githubusercontent.com/70682152/157378671-f3f199d0-7f0a-4b70-
 3. Own your data
 4. Easy to use
 5. Higher accuracy and wide language translation support
+
