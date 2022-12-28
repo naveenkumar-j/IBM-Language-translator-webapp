@@ -20,7 +20,7 @@
 					</td>
           <td width="25%" align="center">
 						<span><strong>Javascript</strong></span><br/>
-						<img height="64px" width="64px" src="https://github.com/uiwjs/file-icons/blob/master/icon/javascript.svg">
+						<img height="64px" width="64px" src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg">
 					</td>
           <td width="25%" align="center">
 						<span><strong>IBM cloud</strong></span><br/>
