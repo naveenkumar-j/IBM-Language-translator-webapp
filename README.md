@@ -1,4 +1,4 @@
-<h1 align="center"> IBM Language Translator Webapp</h1>
+<h1 align="center" id="ibm"> IBM Language Translator Webapp</h1>
 
 
 - ### Tech Stack used:
@@ -49,4 +49,8 @@ https://user-images.githubusercontent.com/70682152/157378671-f3f199d0-7f0a-4b70-
 3. Own your data
 4. Easy to use
 5. Higher accuracy and wide language translation support
+
+<div align="right">
+    <b><a href="#ibm">↥ back to top</a></b>
+</div>
 
